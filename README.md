@@ -1,21 +1,21 @@
-Flask Rest API
+# Flask Rest API
 This program shows how to set up a flaskrestapi with postgre db, blueprint, sqlalchemy, marshmallow, wsgi, unittests
 
-Install guide
+## Install guide
 Clone the repo
 $ git clone https://github.com/bisratyalew/flask-rest-api.git
 
 $ cd flask-rest-api
 
-Create the virtualenv
+### Create the virtualenv
 $ mkvirtualenv flask-rest-api
 
-Install dependencies
+#### Install dependencies
 $ pip install -r requirements.txt
 
-Running on development machine
+##### Running on development machine
 python manage.py runserver
-Features
+###### Features
 Rest Api Flask App
 Serialize object into response
 Integration with Flask-IO to parse parameters from request
