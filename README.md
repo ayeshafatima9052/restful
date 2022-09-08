@@ -1,25 +1,11 @@
 # Flask Rest API
-This program shows how to set up a flaskrestapi with postgre db, blueprint, sqlalchemy, marshmallow, wsgi, unittests
+This program will take a user input and return greetings also write to database by using RESTful Endpoints that is executed in POSTMAN. The Programming Language used is PYTHON with FLASK used as a Framework. 
 
-## Install guide
-Clone the repo
-$ git clone https://github.com/bisratyalew/flask-rest-api.git
-
-$ cd flask-rest-api
-
-### Create the virtualenv
-$ mkvirtualenv flask-rest-api
+## Create the virtualenv
+ py -m  venv env   Note: venv will create a virtual python installation in the "env" folder.
 
 #### Install dependencies
-$ pip install -r requirements.txt
+ pip install -r requirements.txt
 
-##### Running on development machine
-python manage.py runserver
-###### Features
-Rest Api Flask App
-Serialize object into response
-Integration with Flask-IO to parse parameters from request
-Configuration per environment
-Integration with SQL Alchemy
-Uses Postgres DB
-Unit tests per module
+
+
